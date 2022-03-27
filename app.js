@@ -76,7 +76,7 @@ app.post("/", function(req, res) {
 
   for(var i = 0; i< len; i++){
     res.write(lines[i]);
-    if(i<len-2){res.write("  |  ")};
+    if(i<len-1){res.write("  |  ")};
   }
 
   res.write("\n ---------------------------------------------------------------------");
@@ -88,7 +88,7 @@ app.post("/", function(req, res) {
 
   for(var i = 0; i< len; i++){
     res.write(lines[i]);
-    if(i<len-2){res.write("  |  ")};
+    if(i<len-1){res.write("  |  ")};
   }
 
   res.end();
