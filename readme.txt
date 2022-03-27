@@ -3,4 +3,4 @@ This folder contains 3 files :-
 2. fun.js       -   Conatins all the functions.
 3. index.html   -   Entry page for user.
 
-App Link        :- https://assesmentapp.azurewebsites.net/
+App Link        :-  https://assesmentapp.azurewebsites.net/
