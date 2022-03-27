@@ -28,7 +28,7 @@ app.post("/", function(req, res) {
   var len = strings.length;
   for(var i = 0; i< len; i++){
     res.write(strings[i]);
-    if(i<len-2){res.write("  | ")};
+    if(i<len-1){res.write("  | ")};
   }
 
   res.write("\n ---------------------------------------------------------------------");
